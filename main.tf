@@ -16,8 +16,8 @@ module "vpc" {
   source = "github.com/fiap-postech-36/vpc-infrastructure?ref=v1.0.0"
 
   name                 = var.project_name
-  vpc_cidr             = "10.0.0.0/16"
-  public_subnet_cidrs  = ["10.0.7.0/24", "10.0.8.0/24", "10.0.9.0/24"]
+  vpc_cidr             = "11.0.0.0/16"
+  public_subnet_cidrs  = ["11.0.7.0/24", "11.0.8.0/24", "11.0.9.0/24"]
   private_subnet_cidrs = []
 }
 

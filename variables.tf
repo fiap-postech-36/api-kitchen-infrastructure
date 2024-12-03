@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "project_name" {
   description = "Project Name"
   type        = string
-  default = "ms-payment"
+  default = "ms-kitchen"
 }
 
 variable "DEFAULT_USER" {
